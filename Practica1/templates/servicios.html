@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Servicios - Maquillaje Ficticio{% endblock %}
+
+{% block content %}
+<div class="servicios">
+    <h2>Nuestros Servicios</h2>
+
+    <!-- Servicio de Maquillaje Personalizado -->
+    <div>
+        <h3>Maquillaje Personalizado</h3>
+        <img src="{{ url_for('static', filename='img/maquillaje.png') }}" alt="Maquillaje Personalizado" class="servicio-img">
+        <p>Ofrecemos un servicio de maquillaje personalizado para cualquier ocasión.</p>
+        <a href="/servicios/maquillaje-personalizado">Leer más</a>
+    </div>
+
+    <!-- Servicio de Clases de Maquillaje -->
+    <div>
+        <h3>Clases de Maquillaje</h3>
+        <img src="{{ url_for('static', filename='img/clases.png') }}" alt="Clases de Maquillaje" class="servicio-img">
+        <p>Aprende de nuestros expertos en nuestras clases de maquillaje.</p>
+        <a href="/servicios/clases-de-maquillaje">Leer más</a>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Noticias - Maquillaje Ficticio{% endblock %}
+
+{% block content %}
+<div class="noticias">
+    <h2>Últimas Noticias</h2>
+    
+    <!-- Noticia: Nuevo Curso de Maquillaje -->
+    <div>
+        <h3>Nuevo Curso de Maquillaje</h3>
+        <img src="{{ url_for('static', filename='img/curso.png') }}" alt="Curso de Maquillaje" class="noticia-img" width="400">
+        <p>Inscríbete ahora en nuestro nuevo curso de maquillaje avanzado.</p>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,73 @@
+body {
+    background-color: #ffe4e9;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #ff77a0;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #ff77a0;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+h2 {
+    color: #ff4f7f;
+}
+
+button {
+    background-color: #ff77a0;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4f7f;
+}
+/* General settings for images */
+img {
+    max-width: 100%;      /* Hace que las imágenes se adapten al contenedor sin excederlo */
+    height: auto;         /* Mantiene las proporciones originales de la imagen */
+    display: block;       /* Evita que las imágenes tengan espacio blanco alrededor */
+    margin: 0 auto;       /* Centra las imágenes horizontalmente */
+}
+
+/* Ajustes específicos para el logotipo */
+.logo {
+    max-width: 500px;     /* El logotipo tendrá un tamaño máximo de 200px */
+    margin: 20px auto;    /* Espaciado alrededor del logotipo */
+    display: block;
+}
+
+/* Ajustes para las imágenes de servicios */
+.servicio-img {
+    max-width: 500px;     /* Tamaño máximo para las imágenes de los servicios */
+    margin-bottom: 20px;  /* Espacio inferior debajo de la imagen */
+    border-radius: 10px;  /* Bordes redondeados para dar un efecto suave */
+}
+
+/* Configuración para imágenes en la sección de noticias */
+.noticia-img {
+    max-width: 600px;     /* Las imágenes en las noticias serán más grandes */
+    margin-bottom: 10px;
+    border-radius: 5px;   /* Bordes ligeramente redondeados */
+}

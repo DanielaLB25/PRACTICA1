@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Inicio - Maquillaje Ficticio{% endblock %}
+
+{% block content %}
+<div class="inicio">
+    <!-- Logotipo -->
+    <img src="{{ url_for('static', filename='img/logo_a.png') }}" alt="Logo de Maquillaje Ficticio" class="logo" width="500">
+    
+    <p>Bienvenidos a Ruby Cosmetics, donde ofrecemos los mejores servicios de maquillaje personalizados para todas tus ocasiones especiales.</p>
+
+    <!-- Testimonios -->
+    <div class="testimonios">
+        <h2>Testimonios</h2>
+        <p>"Excelente servicio, ¡me sentí como una reina!" - Cliente 1</p>
+        <p>"Un maquillaje increíble, justo lo que necesitaba." - Cliente 2</p>
+    </div>
+
+    <!-- Botones de llamada a la acción -->
+    <div class="cta">
+        <button>Contratar Servicio</button>
+        <button>Ver en Instagram</button>
+    </div>
+</div>
+{% endblock %}
